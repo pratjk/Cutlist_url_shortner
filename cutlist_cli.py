@@ -5,7 +5,7 @@ from app import get_db, app
 
 def print_banner():
     print("=======================================")
-    print("✂️  Cutlist - Terminal Management")
+    print("Cutlist - Terminal Management")
     print("=======================================")
 
 def list_links(cur):
