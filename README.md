@@ -44,5 +44,5 @@ python app.py cli
 
 This will launch a small menu where you can list links, view stats, delete links, or export everything to a CSV file.
 
-## What I learned
-I learned that you don't always need an ORM to do database stuff. Sometimes just writing `sqlite3` queries is easier and more direct. I also learned how to integrate QR codes using the `qrcode` library and how to do simple web scraping/API calls to get geolocation data from an IP address. The web interface might not be using a massive framework, but it does exactly what it needs to do!
+## Learning is imp
+It became apparent that ORM is not required when interacting with databases, and it is much better to simply write queries using `sqlite3`. Moreover, I learned how to work with QR codes using the `qrcode` package and perform basic web scraping to get geographic coordinates based on IP addresses. Despite the fact that the web app was not developed using any frameworks at all, it successfully does its thing.
